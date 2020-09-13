@@ -49,7 +49,7 @@ Spectral libraries containing different instances of endmember spectra are requi
 
 ## Contributors
 
-Codes for many of the unmixing algorithms used in this toolbox have been generously provided by the the authors of the original papers. These include:
+Codes for many of the algorithms used in this toolbox have been generously made available by the the authors of the original papers. These include:
 
 * __Sparse Unmixing with Fractional Norms__: Provided by Lucas Drumetz and collaborators, and can be found [here](https://openremotesensing.net/knowledgebase/hyperspectral-image-unmixing-with-endmember-bundles-and-group-sparsity-inducing-mixed-norms/)
 * __ELMM__: Provided by Lucas Drumetz and collaborators, and can be found [here](https://openremotesensing.net/knowledgebase/spectral-variability-and-extended-linear-mixing-model/)
