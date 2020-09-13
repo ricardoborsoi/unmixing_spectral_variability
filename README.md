@@ -43,7 +43,7 @@ For more details on these algorithms, see the full references, which are include
 
 Spectral libraries containing different instances of endmember spectra are required by some of the unmixing algorithms. They were extracted directly from the observed hyperspectral image using the procedure proposed in
 
-> Somers, B., Zortea, M., Plaza, A. and Asner, G.P.
+> Somers, B., Zortea, M., Plaza, A. and Asner, G.P.  
 > __Automated extraction of image-based endmember bundles for improved spectral unmixing.__  
 > IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 5(2), pp.396-408 (2012).
 
