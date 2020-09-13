@@ -2,7 +2,6 @@ This projects contain a Matlab spectral unmixing toolbox related to the paper
 
 > Borsoi, R.A., Imbiriba, T., Bermudez, J.C.M., Richard, C., Chanussot, J., Drumetz, L., Tourneret, J.Y., Zare, A. and Jutten, C.  
 > __Spectral Variability in Hyperspectral Data Unmixing: A Comprehensive Review.__  
-> arXiv preprint arXiv:2001.07307 (2020).  
 > ArXiv link: <https://arxiv.org/pdf/2001.07307>  
 
 It contains a comparative evaluation of some spectral unmixing algorithms which consider endmember variability, using realistic synthetically generated data. See Section VI of the reference above for further details.
@@ -52,11 +51,11 @@ Spectral libraries containing different instances of endmember spectra are requi
 
 Codes for many of the unmixing algorithms used in this toolbox have been generously provided by the the authors of the original papers. These include:
 
-* __Sparse Unmixing with Fractional Norms__: Provided by Lucas Drumetz and collaborators, and can be found [here]()
-* __ELMM__: 
-* __RUSAL__: 
-* __NCM__: 
-* __BCM__:  Xiaoxiao Du and Alina Zare <https://github.com/GatorSense/BetaCompositionalModel>
+* __Sparse Unmixing with Fractional Norms__: Provided by Lucas Drumetz and collaborators, and can be found [here](https://openremotesensing.net/knowledgebase/hyperspectral-image-unmixing-with-endmember-bundles-and-group-sparsity-inducing-mixed-norms/)
+* __ELMM__: Provided by Lucas Drumetz and collaborators, and can be found [here](https://openremotesensing.net/knowledgebase/spectral-variability-and-extended-linear-mixing-model/)
+* __RUSAL__: Provided by Abderrahim Halimi and collaborators, and can be found [here](https://sites.google.com/site/abderrahimhalimi/publications)
+* __NCM__: Provided by Olivier Eches and collaborators, and can be found [here](http://olivier.eches.free.fr/research.html)
+* __BCM__: Provided by Xiaoxiao Du and Alina Zare (see the section below for the full reference to this software package), and can be found [here](https://github.com/GatorSense/BetaCompositionalModel)
 * __Spectral libraries extraction__:
 * The Matlab codes simulating the __PROSPECT-D__ vegetation variability model was provided by Jean-Baptiste Feret and collaborators, and can be found [here](http://teledetection.ipgp.jussieu.fr/prosail/)
 
@@ -101,7 +100,10 @@ Codes for many of the unmixing algorithms used in this toolbox have been generou
 8. __BCM__:  
     > Du, X., Zare, A., Gader, P. and Dranishnikov, D.  
     > __Spatial and spectral unmixing using the beta compositional model.__  
-    > IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 7(6), pp.1994-2003 (2014).
+    > IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 7(6), pp.1994-2003 (2014).  
 
+    > [Software] Du, X. and Zare, A.  
+    > GatorSense/BetaCompositionalModel: Initial Release (Version v1.0).   
+    > Zenodo. http://doi.org/10.5281/zenodo.2638288 (2019).
 
 
