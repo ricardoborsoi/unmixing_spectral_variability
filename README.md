@@ -4,7 +4,7 @@ This projects contain a Matlab spectral unmixing toolbox related to the paper
 > __Spectral Variability in Hyperspectral Data Unmixing: A Comprehensive Review.__  
 > ArXiv link: <https://arxiv.org/pdf/2001.07307>  
 
-It contains a comparative evaluation of some spectral unmixing algorithms which consider endmember variability, using realistic synthetically generated data. See Section VI of the reference above for further details.
+It contains a comparative evaluation of some spectral unmixing algorithms which consider endmember variability, using realistic synthetically generated data. See Section 6 of the reference above for further details.
 
 
 ## Setup and running
@@ -14,18 +14,18 @@ Executing `main.m` or `main_montecarlo.m` on Matlab should generate the syntheti
 
 ## Synthetic data generation
 
-The algorithms are evaluated using synthetic endmember variability data, generated according to a simplification of some radiative transfer models. These were:
+The algorithms are evaluated using synthetic endmember variability data, generated according to simplifications of some radiative transfer models. These were:
 
 * A simplification of Hapke's model, to generate *soil* endmembers according to different viewing angles
 * The PROSPECT-D model, to generate *vegetation* endmembers according to different biophysical parameters
 * A simplified atmospheric compensation model, to generate *water* endmembers according to different viewing angles
 
-See Section VI-A of the reference above for further details.
+See Section 6-A of the reference above for further details.
 
 
 ## Spectral unmixing methods
 
-The unmixing algorithms are contained in the folder 'methods', and can be easily interfaced with the `main.m` code using adaptors. The following algorithms are included:
+The unmixing algorithms are contained in the folder named "methods", and are easily interfaced with the `main.m` code using adaptor codes. The following algorithms are included:
 
 * __FCLS__ (Fully Constrained Least Squares): Uses fixed endmembers (i.e., do not considers spectral variability)
 * __MESMA__ (Multiple Endmember Spectral Mixture Analysis): Needs spectral libraries, perform an exhaustive search for the endmembers therein which best fit the image pixels
@@ -40,7 +40,7 @@ For more details on these algorithms, see the full references, which are include
 
 ##  Library extraction
 
-Spectral libraries containing different instances of endmember spectra are required by some of the unmixing algorithms. They were extracted directly from the observed hyperspectral image using the procedure proposed in
+Spectral libraries containing different instances of endmember spectra are required by some of the unmixing algorithms to address spectral variability. They were extracted directly from the observed hyperspectral image using the procedure proposed in
 
 > Somers, B., Zortea, M., Plaza, A. and Asner, G.P.  
 > __Automated extraction of image-based endmember bundles for improved spectral unmixing.__  
@@ -49,7 +49,7 @@ Spectral libraries containing different instances of endmember spectra are requi
 
 ## Contributors
 
-Codes for many of the algorithms used in this toolbox have been generously made available by the the authors of the original papers. These include:
+Codes for many of the algorithms used in this toolbox have been generously made publicly available by the the authors of the original papers. These include:
 
 * __Sparse Unmixing with Fractional Norms__: Provided by Lucas Drumetz and collaborators, and can be found [here](https://openremotesensing.net/knowledgebase/hyperspectral-image-unmixing-with-endmember-bundles-and-group-sparsity-inducing-mixed-norms/)
 * __ELMM__: Provided by Lucas Drumetz and collaborators, and can be found [here](https://openremotesensing.net/knowledgebase/spectral-variability-and-extended-linear-mixing-model/)
