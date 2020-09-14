@@ -56,7 +56,7 @@ Codes for many of the algorithms used in this toolbox have been generously made 
 * __RUSAL__: Provided by Abderrahim Halimi and collaborators, and can be found [here](https://sites.google.com/site/abderrahimhalimi/publications)
 * __NCM__: Provided by Olivier Eches and collaborators, and can be found [here](http://olivier.eches.free.fr/research.html)
 * __BCM__: Provided by Xiaoxiao Du and Alina Zare (see the section below for the full reference to this software package), and can be found [here](https://github.com/GatorSense/BetaCompositionalModel)
-* __Spectral libraries extraction__:
+* __Spectral libraries extraction__: Codes for the extraction of spectral libraries from observed hyeprspectral images were provided by Lucas Drumetz and collaborators, in [this](https://openremotesensing.net/knowledgebase/hyperspectral-image-unmixing-with-endmember-bundles-and-group-sparsity-inducing-mixed-norms/) software package
 * The Matlab codes simulating the __PROSPECT-D__ vegetation variability model was provided by Jean-Baptiste Feret and collaborators, and can be found [here](http://teledetection.ipgp.jussieu.fr/prosail/)
 
 
