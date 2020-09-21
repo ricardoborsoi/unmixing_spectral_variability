@@ -30,9 +30,17 @@ cd methods/BCM
 
 Xim = Yim;
 
+
+% convert lib from Px1 to a 1xP cell:
+Lib2 = cell(1,size(M0,2));
+for  ii=1:size(M0,2)
+    Lib2{1,ii} = Lib{ii};
+end
+
+
 tic
 
-[Parameters] = BCMParameters(Lib);
+[Parameters] = BCMParameters(Lib2);
 
 
 %% 	BCM Unmixing
