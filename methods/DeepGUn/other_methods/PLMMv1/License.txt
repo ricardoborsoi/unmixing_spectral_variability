@@ -1,0 +1,57 @@
+
+PLMM 1.0
+
+First release: October 30, 2015
+
+---------------------------------------------------------------------
+Copyright (c) 2015, Pierre-Antoine Thouvenin, Nicolas Dobigeon, Jean-Yves Tourneret
+
+This program is a free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+---------------------------------------------------------------------
+
+The provided set of MATLAB files contains an implementation of the algorithm
+described in the following paper:
+
+[1] P.-A. Thouvenin, N. Dobigeon and J.-Y. Tourneret, "Hyperspectral unmixing with spectral 
+    variability using a perturbed linear mixing model", IEEE Trans. Signal Processing, to appear.
+
+The proposed files partly uses MATLAB functions developed by the authors of the following papers.
+
+[1] J. M. Nascimento and J. M. Bioucas-Dias, "Vertex component analysis: 
+	a fast algorithm to unmix hyperspectral data", IEEE Trans. Geosci. Remote
+	Sens., vol. 43, no. 4, pp. 898-910, April 2005.
+	[Associated function: vca.m]
+	http://www.lx.it.pt/~bioucas/code.htm
+
+[2] J. M. Bioucas-Dias and M. A. T. Figueiredo, "Alternating direction 
+	algorithms for constrained sparse regression: Application to hyperspectral
+	unmixing," in Proc. IEEE GRSS Workshop Hyperspectral Image Signal
+	Process.: Evolution in Remote Sens. (WHISPERS), Reykjavik, Iceland,
+	June 2010.
+	[Associated function: sunsal.m]
+	http://www.lx.it.pt/~bioucas/code.htm
+
+[3] J. Duchi, S. Shalev-Schwartz, Y. Singer, and T. Chandra, "Efficient
+	projection onto the l1-ball for learning in high dimensions," in Proc.
+	Int. Conf. Machine Learning (ICML), Helsinki, Finland, 2008.	
+	[Associated function: ProjectOntoSimplex.m]
+	
+These can be directly downloaded for their author's webpage.
+	
+
+CONTACT INFORMATION:
+
+            pierreantoine.thouvenin@enseeiht.fr
+
+
