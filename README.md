@@ -1,8 +1,8 @@
 This projects contain a Matlab spectral unmixing toolbox related to the paper
 
 > Borsoi, R.A., Imbiriba, T., Bermudez, J.C.M., Richard, C., Chanussot, J., Drumetz, L., Tourneret, J.Y., Zare, A. and Jutten, C.  
-> __Spectral Variability in Hyperspectral Data Unmixing: A Comprehensive Review.__  
-> ArXiv link: <https://arxiv.org/pdf/2001.07307>  
+> __[Spectral Variability in Hyperspectral Data Unmixing: A Comprehensive Review](https://arxiv.org/pdf/2001.07307).__  
+> IEEE Geoscience and Remote Sensing Magazine, 2021. 
 
 It contains a comparative evaluation of some spectral unmixing algorithms which consider endmember variability, using realistic synthetically generated data. See Section 6 of the reference above for further details.
 
