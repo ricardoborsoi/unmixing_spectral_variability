@@ -26,6 +26,12 @@ The code is implemented in MATLAB and includes:
 
 
 
+## UPDATE:
+
+Changed network training and matlab loading, now compatible with Tensorflow 2 and Keras 2.4.
+
+
+
 ## IMPORTANT:
 If you use this software please cite the following in any resulting
 publication:

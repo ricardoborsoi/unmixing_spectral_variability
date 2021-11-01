@@ -29,14 +29,10 @@ import os
 from scipy.io import loadmat, savemat
 
 # we want reproducible results whenever possible
-try:
-    from numpy.random import seed
-    seed(1)
-    from tensorflow import set_random_seed
-    set_random_seed(2)
-except:
-  print("WARNING: Could not set random seed....") 
-
+from numpy.random import seed
+seed(1)
+from tensorflow import set_random_seed
+set_random_seed(2)
 
 
 # ----------------------------------------------------------------------
@@ -229,7 +225,7 @@ if __name__ == '__main__':
                 batch_size=batch_size,
                 validation_data=(x_test, None))
         # vae.save_weights('vae_mlp_mnist.h5')
-        vae.save_weights('vae_EM_idx' + str(mat_contents['em_idx'][0][0]) + '.h5', save_format='h5')
+        vae.save_weights('vae_EM_idx' + str(mat_contents['em_idx'][0][0]) + '.h5')
 
 
     m_sig = np.transpose(mat_contents['m_idx'])
