@@ -43,8 +43,15 @@ function [EMs_tensor,Z_latent]=DeepGenU_optimization(Z_init,data,A,mappingAEC,Zr
 %     'HessUpdate','bfgs','InitialHessType','identity','GoalsExactAchieve',1,...
 %     'StoreN',10,'TolX',1e-3,'TolFun',1e-3);
 
+% do not use the MEX files in MAC Osx, they give an error
+if ismac == 1
+    useMex = 0;
+else
+    useMex = 1;
+end
+
 optimOpts2 = struct('Display','off','Method','lbfgs','numDiff',2, ...
-    'progTol', 1e-3,'optTol',1e-3,'Corr',25);
+    'progTol', 1e-3,'optTol',1e-3,'Corr',25,'useMex',useMex);
 
 
 % get constants
